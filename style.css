@@ -1,0 +1,48 @@
+/* Cấu hình cho body, căn giữa nội dung */
+body {
+    display: flex;  /* Sử dụng Flexbox để căn giữa */
+    justify-content: center;  /* Căn giữa theo chiều ngang */
+    align-items: center;  /* Căn giữa theo chiều dọc */
+    height: 100vh;  /* Chiều cao của cửa sổ trình duyệt */
+    margin: 0;  /* Loại bỏ khoảng cách mặc định của body */
+    background-image: url('hinhnen.jpg');  /* Hình nền của trang */
+    background-size: cover;  /* Phóng to hình nền để phủ kín toàn bộ màn hình */
+    background-position: center;  /* Căn giữa hình nền */
+    background-repeat: no-repeat;  /* Không lặp lại hình nền */
+}
+
+/* Cải thiện giao diện cho canvas */
+#gameCanvas {
+    border: 2px solid black;  /* Khung đen cho canvas */
+    background-color: rgb(255, 255, 255);  /* Nền trắng cho canvas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  /* Thêm bóng mờ cho canvas */
+}
+
+/* Nút chế độ game */
+button {
+    background-color: #4CAF50;  /* Màu xanh lá */
+    border: none;  /* Loại bỏ viền mặc định */
+    color: white;  /* Màu chữ trắng */
+    text-align: center;  /* Căn giữa chữ */
+    display: inline-block;  /* Hiển thị thành block nhưng không chiếm toàn bộ chiều ngang */
+    font-size: 16px;  /* Kích thước chữ */
+    padding: 15px 32px;  /* Khoảng cách xung quanh chữ */
+    margin: 4px 2px;  /* Khoảng cách giữa các nút */
+    cursor: pointer;  /* Hiển thị con trỏ tay khi rê chuột vào nút */
+    border-radius: 8px;  /* Bo tròn các góc */
+    transition: background-color 0.3s ease;  /* Hiệu ứng chuyển màu nền */
+}
+
+/* Hiệu ứng hover khi rê chuột vào nút */
+button:hover {
+    background-color: #45a049;  /* Màu khi rê chuột */
+}
+
+/* Văn bản hướng dẫn */
+h2 {
+    color: #ffffff;  /* Màu chữ trắng */
+    font-family: Arial, sans-serif;  /* Font chữ */
+    font-size: 24px;  /* Kích thước chữ */
+    text-align: center;  /* Căn giữa văn bản */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);  /* Bóng đổ cho chữ */
+}
